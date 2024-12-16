@@ -1,0 +1,21 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:background="#FFCDD2"
+              android:gravity="center">
+
+    <TextView
+            android:id="@+id/textViewA"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Screen A"
+            android:textSize="24sp"
+            android:textColor="#000" />
+
+    <Button
+            android:id="@+id/buttonNextA"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Go to B" />
+</LinearLayout>
